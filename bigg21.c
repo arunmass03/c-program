@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-	int b,p,sum=1,i;
-	scanf("%d %d",&b,&p);
-	for(i=1;i<=p;i++)
+	int a,b,sum=1,i;
+	scanf("%d %d",&a,&b);
+	for(i=1;i<=b;i++)
 	{
-		sum=sum*b;
+		sum=sum*a;
 	}
 	printf("%d",sum);
 	getch();
