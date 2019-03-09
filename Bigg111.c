@@ -3,14 +3,14 @@
 #include<string.h>
 int main()
 { 
-    char a[100];
+    char p[100];
 	int n,l,i,count=0;
-	scanf("%s",a);
+	scanf("%s",p);
 	scanf("%d",&l);
-	n=strlen(a);
+	n=strlen(p);
 	for(i=n-1;i>=0;i--)
 	{
-	    printf("%c",a[i]);
+	    printf("%c",p[i]);
 	    count++;
 	    if(l==count)
 	    {
