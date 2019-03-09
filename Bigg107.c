@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-    int n,rev=0,rem=0;
-    scanf("%d",&n);
-    while(n!='\0')
+    int a,rev=0,rem=0;
+    scanf("%d",&a);
+    while(a!='\0')
     {
-        rem=n%10;
+        rem=a%10;
         rev=(rev*10)+rem;
-        n=n/10;
+        a=a/10;
     }
     printf("%d",rev);
 }
