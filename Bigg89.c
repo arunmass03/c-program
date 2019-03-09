@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main() 
+void main() 
 {
     int n,m,a,i;
     scanf("%d %d",&n,&m);
@@ -12,5 +12,5 @@ int main()
             printf("yes..perfect square");
         }
     }
-	return 0;
+	
 }
