@@ -2,22 +2,22 @@
 #include<conio.h>
 void main()
 {
-	int a[2],b[2],c[2],i,flag=0;
+	int p[2],q[2],r[2],i,flag=0;
 	for(i=0;i<2;i++)
 	{
-	    scanf("%d",&a[i]);
+	    scanf("%d",&p[i]);
 	}
 	for(i=0;i<2;i++)
 	{
-	    scanf("%d",&b[i]);
+	    scanf("%d",&q[i]);
 	}
 	for(i=0;i<2;i++)
 	{
-	    scanf("%d",&c[i]);
+	    scanf("%d",&r[i]);
 	}
 	for(i=0;i<2;i++)
 	{
-	    if(a[i]==b[i] && b[i]==c[i])
+	    if(p[i]==q[i] && q[i]==r[i])
 	    {
 	        flag=1;
 	    }
@@ -30,4 +30,5 @@ void main()
 	{
 	    printf("no");
 	}
+	
 }
